@@ -1,9 +1,11 @@
 import React from "react";
 
+import Navbar from "./components/Navbar";
+
 import './style.scss';
 
 export default function App() {
     return (
-        <h1>blabla</h1>
+        <Navbar />
     );
 };
