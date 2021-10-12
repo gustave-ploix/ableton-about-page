@@ -1,0 +1,70 @@
+$font-nav: "Satoshi", sans-serif;
+
+.hided-dropdown-menu {
+  display: none;
+}
+
+.showed-dropdown-navbar {
+  // border: 1px solid red;
+
+  .first-row {
+    // border: 1px solid blue;
+
+    .title-row {
+      padding: 10px 0;
+
+      h2 {
+        font-family: $font-nav;
+        font-size: 1.3em;
+      }
+    }
+    .links-row {
+      padding: 10px 0;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      width: 65%;
+
+      p {
+        font-family: $font-nav;
+        font-size: 1.2em;
+      }
+      .active-link {
+        color: #ff764d;
+      }
+    }
+  }
+
+  .second-row {
+    .title-row {
+      padding: 10px 0;
+
+      h2 {
+        font-family: $font-nav;
+      }
+    }
+
+    .links-row {
+
+      display: flex;
+
+      .link-card {
+        // border: 1px solid blue;
+        width: calc(100% / 4);
+
+        p {
+          a {
+            font-family: $font-nav;
+            font-size: 1.1em;
+
+            strong {
+                font-size: 1.2em;
+            }
+          }
+        }
+      }
+    }
+  }
+}
