@@ -1,62 +1,63 @@
 $font-nav: "Satoshi", sans-serif;
 
 nav {
-  border-bottom: 2px solid lightgray;
-    
+  .navbar {
+    border-bottom: 2px solid lightgray;
+
     .navbar-row {
       height: 100px;
-    
-    
-    // border: 1px solid red;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    .left {
-      width: 45%;
+      // border: 1px solid red;
 
       display: flex;
       align-items: center;
       justify-content: space-between;
 
-      .logo-svg {
-        width: 200px;
+      .left {
+        width: 45%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo-svg {
+          width: 200px;
+        }
+
+        .nav-link {
+          font-family: $font-nav;
+          font-weight: 600;
+          font-size: 1.3em;
+        }
       }
 
-      .nav-link {
-        font-family: $font-nav;
-        font-weight: 600;
-        font-size: 1.3em;
+      .right {
+        width: 20%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .nav-link {
+          font-family: $font-nav;
+          font-weight: 600;
+          font-size: 1.3em;
+        }
+        .blue-link {
+          color: #0000ff;
+        }
+        .smaller-link {
+          font-size: 0.9em;
+        }
       }
     }
 
-    .right {
-      width: 20%;
-
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-
-      .nav-link {
-        font-family: $font-nav;
-        font-weight: 600;
-        font-size: 1.3em;
-      }
-      .blue-link {
-        color: #0000ff;
-      }
-      .smaller-link {
-        font-size: 0.9em;
-      }
+    .dropdown-row-open {
+      margin-bottom: 40px;
     }
-  }
 
-  .dropdown-row-open {
-    margin-bottom: 40px;
-  }
-
-  .dropdown-row-closed {
-    margin-bottom: 0;
+    .dropdown-row-closed {
+      margin-bottom: 0;
+    }
   }
 }
