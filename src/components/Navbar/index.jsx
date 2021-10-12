@@ -15,7 +15,8 @@ export default function Navbar() {
       <div className="navbar">
         <div className="navbar-row">
           <div className="left">
-            <img className="logo-svg" src={logo} alt="" />
+            {/* <img className="logo-svg" src={logo} alt="" /> */}
+            <svg role="img" aria-labelledby="logo" class="main-nav__logo__image" xmlns="http://www.w3.org/2000/svg" width="55" height="31" viewBox="0 0 45 21"><title id="logo">Ableton Homepage</title><path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path></svg>
             <p>
               <a className="nav-link" href="#0">
                 Live
