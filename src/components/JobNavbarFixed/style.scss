@@ -1,0 +1,29 @@
+$font-nav: "Satoshi", sans-serif;
+
+
+.jobRow {
+
+    background-color: white;
+    backdrop-filter: opacity(50%);
+
+    height: 50px;
+
+    border: 1px solid blue;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 30px;
+
+    p {
+        margin-right: 30px;
+        font-family: $font-nav;
+        font-weight: 500;
+    }
+
+    .active-link {
+        color: #ff764d;
+
+    }
+
+}
