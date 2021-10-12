@@ -13,19 +13,19 @@ export default function DropdownNavbar({ hide }) {
         </div>
         <div className="links-row">
           <p>
-            <a href="#">Blog</a>
+            <a href="#0">Blog</a>
           </p>
           <p>
-            <a href="#">Ableton for the Classroom</a>
+            <a href="#0">Ableton for the Classroom</a>
           </p>
           <p>
-            <a href="#">Ableton for Colleges and Universities</a>
+            <a href="#0">Ableton for Colleges and Universities</a>
           </p>
           <p>
-            <a href="#">Certified Training</a>
+            <a href="#0">Certified Training</a>
           </p>
           <p>
-            <a className="active-link" href="#">
+            <a className="active-link" href="#0">
               About Ableton
             </a>
           </p>
@@ -42,7 +42,7 @@ export default function DropdownNavbar({ hide }) {
         <div className="links-row">
           <div className="link-card">
             <p>
-              <a href="#">
+              <a href="#0">
                 <strong>Loop</strong>
                 <br />
                 Watch Talks, Performances and Features from Ableton's Summit for
@@ -52,7 +52,7 @@ export default function DropdownNavbar({ hide }) {
           </div>
           <div className="link-card">
             <p>
-              <a href="#">
+              <a href="#0">
                 <strong>Learning Music</strong>
                 <br />
                 Learn the fundamentals of music making right in your browser.
@@ -61,7 +61,7 @@ export default function DropdownNavbar({ hide }) {
           </div>
           <div className="link-card">
             <p>
-              <a href="#">
+              <a href="#0">
                 <strong>Learning Synths</strong>
                 <br />
                 Get started with synthesis using a web-based synth and
@@ -71,7 +71,7 @@ export default function DropdownNavbar({ hide }) {
           </div>
           <div className="link-card">
             <p>
-              <a href="#">
+              <a href="#0">
                 <strong>Making Music</strong>
                 <br />
                 Some tips from 74 Creative Strategies for Electronic Producers.
