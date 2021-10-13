@@ -9,8 +9,9 @@
     
 }
 
-body {
+body, #root {
     width: 1600px;
+    height: 100vh;
 
     position: relative;
 
