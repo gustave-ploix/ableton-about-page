@@ -1,0 +1,27 @@
+@import "../../services/variables.scss";
+
+header {
+    margin: auto;
+    
+    width: 90%;
+    height: 90vh;
+
+    background-color: lightgray;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .header__title {
+        // position: absolute;
+        // top: 55%;
+        // left: 50%;
+        // transform: translate(-50%, -50%);
+        font-family: $header-font;
+        font-size: 8em;
+        color: #FD5948;
+    }
+}
