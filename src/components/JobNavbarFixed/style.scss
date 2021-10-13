@@ -1,5 +1,4 @@
-$font-nav: "Satoshi", sans-serif;
-
+@import '../../services/variables.scss';
 
 .jobRow {
 
@@ -15,7 +14,7 @@ $font-nav: "Satoshi", sans-serif;
 
     p {
         margin-right: 30px;
-        font-family: $font-nav;
+        font-family: $header-font;
         font-weight: 500;
     }
 

@@ -1,20 +1,19 @@
-$font-nav: "Satoshi", sans-serif;
+@import '../../services/variables.scss';
+
 
 .hided-dropdown-menu {
   display: none;
 }
 
 .showed-dropdown-navbar {
-  // border: 1px solid red;
 
   .first-row {
-    // border: 1px solid blue;
 
     .title-row {
       padding: 10px 0;
 
       h2 {
-        font-family: $font-nav;
+        font-family: $header-font;
         font-size: 1.3em;
       }
     }
@@ -28,7 +27,7 @@ $font-nav: "Satoshi", sans-serif;
       width: 65%;
 
       p {
-        font-family: $font-nav;
+        font-family: $header-font;
         font-size: 1.2em;
       }
       .active-link {
@@ -42,7 +41,7 @@ $font-nav: "Satoshi", sans-serif;
       padding: 10px 0;
 
       h2 {
-        font-family: $font-nav;
+        font-family: $header-font;
       }
     }
 
@@ -56,7 +55,7 @@ $font-nav: "Satoshi", sans-serif;
 
         p {
           a {
-            font-family: $font-nav;
+            font-family: $header-font;
             font-size: 1.1em;
 
             strong {
