@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import PresentationSection from "./components/PresentationSection";
 import ImagesSection from "./components/ImagesSection";
 import VideoPlayer from "./components/VideoPlayer";
+import SecondImageSection from "./components/SecondImageSection";
 
 import TextSection from './components/TextSection';
 
@@ -22,6 +23,8 @@ export default function App() {
       <TextSection title={text[1].title} text={text[1].subtitle} />
       <VideoPlayer />
       <TextSection title={text[2].title} text={text[2].subtitle} />
+      <SecondImageSection />
+      <TextSection title={text[3].title} text={text[3].subtitle} />
     </>
   );
 }
