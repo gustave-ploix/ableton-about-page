@@ -5,7 +5,8 @@ import booksImg from '../../images/woman-and-books.jpg'
 
 export default function ImagesSection() {
   return (
-    <section className="images-section">
+    <section className="first-images-section">
+
       <img className="first-image" src={pushImg} alt="woman using Ableton Push on her desktop" />
       <div className="yellow-square">
         <img className="second-image" src={booksImg} alt="woman walking in front of a few books" />
