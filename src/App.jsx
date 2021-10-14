@@ -11,6 +11,8 @@ import SecondImageSection from "./components/SecondImageSection";
 import ThirdImageSection from "./components/ThirdImageSection";
 import FourthImageSection from "./components/FourthImageSection";
 import JobsCard from "./components/JobsCard";
+import Footer from "./components/Footer";
+
 
 import TextSection from './components/TextSection';
 
@@ -33,6 +35,7 @@ export default function App() {
       <FourthImageSection />
       <TextSection title={text[5].title} text={text[5].subtitle} />
       <JobsCard />
+      <Footer />
     </>
   );
 }
