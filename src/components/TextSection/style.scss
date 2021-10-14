@@ -1,0 +1,35 @@
+@import '../../services/variables.scss';
+
+.text-section {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    .text-section__title, .text-section__text {
+        font-family: $header-font;
+        letter-spacing: 2.5px;
+
+        width: 50%;
+
+        margin: 10px;
+    }
+    
+    .text-section__title {
+        font-size: 1.6em;
+        font-weight: 500;
+
+        a {
+            color: $blue;
+        }
+    }
+
+    .text-section__text {
+        font-size: 1.4em;
+    }
+
+}   
